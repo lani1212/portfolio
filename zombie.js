@@ -21,3 +21,4 @@ if(survival === 0 ){
 } else if ( survival > 0 ){
   alert("You kill the zombie with your" + " " + weapon + ". You win!");
 }
+
