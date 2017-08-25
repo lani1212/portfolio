@@ -1,6 +1,6 @@
 <?php 
-include("inc/data.php");
-include("inc/functions.php");
+include("data.php");
+include("functions.php");
 
 $pageTitle = "Full Catalog";
 $section = null;
@@ -18,13 +18,14 @@ if (isset($_GET["cat"])) {
     }
 }
 
-include("inc/header.php"); ?>
+include("header.php"); ?>
 
 <div class="section catalog page">
     
     <div class="wrapper">
         
-        <h1><?php 
+        <h1>
+		<?php 
         if ($section != null) {
             echo "<a href='catalog.php'>Full Catalog</a> &gt; ";
         }
@@ -42,4 +43,4 @@ include("inc/header.php"); ?>
     </div>
 </div>
 
-<?php include("inc/footer.php"); ?>
+<?php include("footer.php"); ?>
