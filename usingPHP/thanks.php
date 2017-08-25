@@ -5,7 +5,7 @@
 $pageTitle = "Thank You";
 $section = null;
 
-include("inc/header.php"); ?>
+include("header.php"); ?>
 
 
 <div class="section page"> 
@@ -13,4 +13,4 @@ include("inc/header.php"); ?>
 	<p>Thanks for the email! I&rsquo;ll check out your suggestion shortly! </p>
 </div>
 
-<?php include("inc/footer.php"); ?>
+<?php include("footer.php"); ?>
