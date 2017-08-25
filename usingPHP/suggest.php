@@ -49,7 +49,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 $pageTitle = "Suggest a Media Item";
 $section = "suggest";
 
-include("inc/header.php"); ?>
+include("header.php"); ?>
 
 <div class="section page">
     <div class="wrapper">
@@ -182,4 +182,4 @@ include("inc/header.php"); ?>
     </div>
 </div>
 
-<?php include("inc/footer.php"); ?>
+<?php include("footer.php"); ?>
