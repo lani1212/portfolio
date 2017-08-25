@@ -1,6 +1,6 @@
 <?php 
-include("inc/data.php");
-include("inc/functions.php");
+include("data.php");
+include("functions.php");
 
 if (isset($_GET["id"])) {
     $id = $_GET["id"];
@@ -10,9 +10,9 @@ if (isset($_GET["id"])) {
 }
 
 if (!isset($item)) {
-    header("location:catalog.php");<?php 
-include("inc/data.php");
-include("inc/functions.php");
+	header("location:catalog.php");
+include("data.php");
+include("functions.php");
 
 if (isset($_GET["id"])) {
     $id = $_GET["id"];
@@ -29,7 +29,7 @@ if (!isset($item)) {
 $pageTitle = $item["title"];
 $section = null;
 
-include("inc/header.php"); ?>
+include("header.php"); ?>
 
 <div class="section page">
 
